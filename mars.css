@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    display: grid;
+    grid-template-columns:20% 50% 30%;
+    background-color: grey;
+    box-shadow: 0px 5px 15px blue;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input
+{
+    width: 600px;
+}
+.endnavbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.endnavbar a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+.secondrow
+{
+    background-image: url(images/marsbanner.avif);
+    height: 300px;
+}
+.secondrow button
+{
+    margin-left: 400px;
+    margin-top: 220px;
+    color: rgb(139, 98, 82);
+    background-color: rgb(231, 235, 238);
+    height: 30px;
+    width: 400px;
+   
+}
+.grid
+{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 20px;
+    background-color: bisque;
+
+}
+.leftgrid
+{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.rightgrid
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items:center;
+    background-color: burlywood ;
+} 
+.rightgrid button
+{
+    width: 100px;
+    height: 20px;
+}
